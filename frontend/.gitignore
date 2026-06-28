@@ -1,0 +1,32 @@
+# Frontend (React)
+/node_modules
+/build
+/dist
+.env
+.env.local
+npm-debug.log*
+yarn-debug.log*
+
+# Backend (Python)
+__pycache__/
+venv/
+env/
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+New Text Document.txt
+for run.txt
+*.log
+*.tmp
