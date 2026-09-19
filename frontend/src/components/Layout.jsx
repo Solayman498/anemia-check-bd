@@ -29,7 +29,7 @@ function Layout() {
     { path: "/dashboard", icon: LayoutDashboard, label: t.dashboard },
     { path: "/lab", icon: FileText, label: t.labReport },
     { path: "/history", icon: Calendar, label: t.history },
-    { path: "/tracker", icon: Activity, label: t.dailyTracker },
+    { path: "/daily-tracker", icon: Activity, label: t.dailyTracker }, 
     { path: "/hb-tracker", icon: Heart, label: t.hbTracker },
     { path: "/settings", icon: Settings, label: t.settings },
   ];

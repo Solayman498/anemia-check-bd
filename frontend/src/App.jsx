@@ -11,7 +11,7 @@ import LabReport from "./pages/LabReport";
 import Symptoms from "./pages/Symptoms";
 import Result from "./pages/Result";
 import History from "./pages/History";
-import Tracker from "./pages/Tracker";
+import DailyTracker from "./pages/DailyTracker"; 
 import HBTracker from "./pages/HBTracker";
 import Settings from "./pages/Settings";
 
@@ -33,7 +33,8 @@ function App() {
             <Route path="/symptoms" element={<Symptoms />} />
             <Route path="/result" element={<Result />} />
             <Route path="/history" element={<History />} />
-            <Route path="/tracker" element={<Tracker />} />
+            {/* New Daily Tracker Route */}
+            <Route path="/daily-tracker" element={<DailyTracker />} />
             <Route path="/hb-tracker" element={<HBTracker />} />
             <Route path="/settings" element={<Settings />} />
           </Route>

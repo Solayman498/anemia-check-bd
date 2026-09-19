@@ -464,7 +464,7 @@ function History() {
                         <div className="bg-white rounded-lg px-3 py-3 border border-gray-200 space-y-4">
                           <h5 className="font-semibold text-gray-800">{nutritionGuidance.title}</h5>
                           <div>
-                            <p className="font-medium text-green-700 mb-2">. {t.recommendedFoods}</p>
+                            <p className="font-medium text-green-700 mb-2">✔ {t.recommendedFoods}</p>
                             <ul className="list-disc ml-5 space-y-1 text-sm text-gray-700">
                               {nutritionGuidance.recommended_foods?.map((food, i) => (
                                 <li key={i}>{food}</li>

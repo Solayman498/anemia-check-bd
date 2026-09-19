@@ -8,7 +8,7 @@ def calculate_risk(hb: float, mcv: float, gender: str, pregnant: bool) -> dict:
 
     hb = float(hb)
 
-    # WHO Risk Level
+    # ─── WHO Risk Level ───
     if gender == "female" and pregnant:
         if hb < 7.0:
             level = "Severe"
@@ -39,7 +39,7 @@ def calculate_risk(hb: float, mcv: float, gender: str, pregnant: bool) -> dict:
         else:
             level = "Normal"
 
-    # UI Colors
+    # ─── UI Colors ───
     color_map = {
         "Severe": "red",
         "Moderate": "orange",
@@ -47,78 +47,51 @@ def calculate_risk(hb: float, mcv: float, gender: str, pregnant: bool) -> dict:
         "Normal": "green"
     }
 
-    # Risk Level
+    # ─── Risk Level ───
     level_map = {
-        "Severe": {
-            "bn": "মারাত্মক",
-            "en": "Severe"
-        },
-        "Moderate": {
-            "bn": "মাঝারি",
-            "en": "Moderate"
-        },
-        "Mild": {
-            "bn": "হালকা",
-            "en": "Mild"
-        },
-        "Normal": {
-            "bn": "স্বাভাবিক",
-            "en": "Normal"
-        }
+        "Severe": {"bn": "মারাত্মক", "en": "Severe"},
+        "Moderate": {"bn": "মাঝারি", "en": "Moderate"},
+        "Mild": {"bn": "হালকা", "en": "Mild"},
+        "Normal": {"bn": "স্বাভাবিক", "en": "Normal"}
     }
 
-    # Doctor Recommendation
+    # ─── Doctor Recommendation ───
     doctor_map = {
-        "Severe": {
-            "bn": "🔴 আজকেই ডাক্তার দেখান!",
-            "en": "🔴 Consult a doctor today!"
-        },
-        "Moderate": {
-            "bn": "🟠 এক সপ্তাহের মধ্যে ডাক্তার দেখান",
-            "en": "🟠 Consult a doctor within one week"
-        },
-        "Mild": {
-            "bn": "🟡 এক মাসের মধ্যে ডাক্তার দেখান",
-            "en": "🟡 Consult a doctor within one month"
-        },
-        "Normal": {
-            "bn": "✅ বার্ষিক স্বাস্থ্য পরীক্ষা করুন",
-            "en": "✅ Annual health check-up is recommended"
-        }
+        "Severe": {"bn": "🔴 আজকেই ডাক্তার দেখান!", "en": "🔴 Consult a doctor today!"},
+        "Moderate": {"bn": "🟠 এক সপ্তাহের মধ্যে ডাক্তার দেখান", "en": "🟠 Consult a doctor within one week"},
+        "Mild": {"bn": "🟡 এক মাসের মধ্যে ডাক্তার দেখান", "en": "🟡 Consult a doctor within one month"},
+        "Normal": {"bn": "✅ বার্ষিক স্বাস্থ্য পরীক্ষা করুন", "en": "✅ Annual health check-up is recommended"}
     }
 
-    # Anemia Type
-    anemia_type = None
+    # ───  Anemia Type (MCV based) ───
+    anemia_type_en = None
     anemia_type_bn = None
 
+    #  MCV থাকলেই anemia type নির্ধারণ করুন
     if mcv is not None:
-        mcv = float(mcv)
+        try:
+            mcv = float(mcv)
+            if mcv < 80:
+                anemia_type_en = "Microcytic"
+                anemia_type_bn = "মাইক্রোসাইটিক"
+            elif mcv > 100:
+                anemia_type_en = "Macrocytic"
+                anemia_type_bn = "ম্যাক্রোসাইটিক"
+            else:
+                anemia_type_en = "Normocytic"
+                anemia_type_bn = "নরমোসাইটিক"
+        except (TypeError, ValueError):
+            # MCV conversion failed
+            pass
 
-        if mcv < 80:
-            anemia_type = "Microcytic Anemia"
-            anemia_type_bn = "মাইক্রোসাইটিক রক্তশূন্যতা"
-
-        elif mcv > 100:
-            anemia_type = "Macrocytic Anemia"
-            anemia_type_bn = "ম্যাক্রোসাইটিক রক্তশূন্যতা"
-
-        else:
-            anemia_type = "Normocytic Anemia"
-            anemia_type_bn = "নরমোসাইটিক রক্তশূন্যতা"
-
+    # ───  Return ───
     return {
-        "level": level,                      
-        "color": color_map[level],           
-
-        # Multilingual Risk Level
+        "level": level,
+        "color": color_map[level],
         "risk_level": level_map[level],
-
-        # Multilingual Doctor Advice
         "doctor": doctor_map[level],
-
-        # Multilingual Anemia Type
-        "anemia_type": None if level == "Normal" else {
+        "anemia_type": None if level == "Normal" or anemia_type_en is None else {
             "bn": anemia_type_bn,
-            "en": anemia_type
+            "en": anemia_type_en
         }
     }

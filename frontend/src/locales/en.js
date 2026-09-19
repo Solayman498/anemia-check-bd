@@ -501,4 +501,179 @@ urgencySevere: "See doctor today!",
 urgencyModerate: "See doctor within 1 week",
 urgencyMild: "See doctor within 1 month",
 urgencyNormal: "Normal — Continue healthy lifestyle",
+
+
+
+
+
+// Daily Tracker
+dailyTracker: "Daily Tracker",
+today: "Today",
+todayLog: "Today's Log",
+todayScore: "Today's Score",
+status: "Status",
+symptomScore: "Symptom Score",
+yesterday: "Yesterday",
+difference: "Difference",
+todayAnalysis: "Today's Analysis",
+aiInsight: "AI Insight",
+symptomTrend: "Symptom Trend",
+last30Days: "Last 30 Days",
+weeklySummary: "Weekly Summary",
+averageScore: "Average Score",
+bestDay: "Best Day",
+worstDay: "Worst Day",
+trend: "Trend",
+streakDays: "You've logged symptoms for",
+consecutiveDays: "consecutive days",
+calendar: "Calendar",
+good: "Good",
+attention: "Attention",
+warning: "Warning",
+aiWeeklySummary: "AI Weekly Summary",
+overallTrend: "Overall Trend",
+mostFrequentSymptoms: "Most Frequent Symptoms",
+days: "days",
+needsAttention: "Needs Attention",
+last5DaysIncreasing: "Last 5 days increasing",
+monitorClosely: "Monitor closely",
+high: "High",
+medium: "Medium",
+personalRecord: "Personal Record",
+lowest: "Lowest",
+highest: "Highest",
+average: "Average",
+optional: "Optional",
+writeNote: "Write about today's health...",
+saving: "Saving...",
+saved: "Saved ✓",
+saveLog: "Save Today's Log",
+decreased: "decreased",
+increased: "increased",
+unchanged: "unchanged",
+historyComingSoon: "History coming soon...",
+history: "History",
+entries: "entries",
+view: "View",
+delete: "Delete",
+cancel: "Cancel",
+noLog: "No Log",
+startTracking: "Start tracking your health today!",
+
+
+// en.js
+welcomeBack: "Welcome back to AnemiaCheck-BD",
+lastUpdated: "Last updated",
+currentHB: "Current HB",
+riskLevel: "Risk Level",
+todaySymptom: "Today's Symptom",
+currentStreak: "Current Streak",
+aiHealthStatus: "AI Health Status",
+viewDetails: "View Details",
+quickActions: "Quick Actions",
+newScreening: "New Screening",
+healthProgress: "Health Progress",
+hbTrend: "HB Trend",
+symptomTrend: "Symptom Trend",
+viewFull: "View Full",
+recentActivity: "Recent Activity",
+achievements: "Achievements",
+healthLogs: "Health Logs",
+completed: "Completed",
+consistent: "Consistent",
+hbImproved: "HB Improved",
+improved: "Improved",
+decreased: "Decreased",
+noChange: "No Change",
+dailyTip: "Daily Health Tip",
+emergencyNotice: "⚠️ Please consult a doctor",
+emergencyMessage: "Your recent reports indicate that medical evaluation is recommended.",
+viewReports: "View Reports",
+days: "Days",
+noDataAvailable: "No data available",
+// en.js
+hbTrend: "HB Trend",
+symptomTrend: "Symptom Trend",
+viewFull: "View Full",
+noHBData: "No HB data available. Complete a screening.",
+
+// Status
+  good: "Good",
+  attention: "Attention Needed",
+  warning: "Warning",
+
+  // Trend
+  strongly_improving: "Strongly Improving",
+  improving: "Improving",
+  stable: "Stable",
+  slightly_worse: "Slightly Worse",
+  worsening: "Worsening",
+  critical: "Critical",
+
+  // Risk
+  low: "Low",
+  moderate: "Moderate",
+  high: "High",
+
+  // Severity
+  none: "None",
+  mild: "Mild",
+  moderate: "Moderate",
+  severe: "Severe",
+
+  // Score Level
+  low: "Low",
+  moderate: "Moderate",
+  high: "High",
+
+  // Symptoms
+  symptom_fatigue: "Fatigue",
+  symptom_dizziness: "Dizziness",
+  symptom_breathless: "Breathlessness",
+  symptom_headache: "Headache",
+  symptom_heartbeat: "Heart Palpitations",
+  symptom_swelling: "Swelling",
+  symptom_pale_eyes: "Pale Eyes",
+  symptom_concentration: "Concentration Issues",
+
+  // Score Explanation Keys
+  count_1_fatigue_mild: "1 symptom: Fatigue (Mild)",
+  count_2_fatigue_moderate_dizziness_mild: "2 symptoms: Fatigue (Moderate), Dizziness (Mild)",
+  count_3_fatigue_moderate_breathless_severe_heartbeat_moderate: "3 symptoms: Fatigue (Moderate), Breathlessness (Severe), Heart Palpitations (Moderate)",
+
+  // Symptom Reasons
+  symptom_reason_fatigue: "Low hemoglobin reduces oxygen delivery to muscles, causing fatigue.",
+  symptom_reason_breathless: "Body increases breathing rate to compensate for oxygen deficiency.",
+  symptom_reason_heartbeat: "Heart works faster to pump more blood, causing palpitations.",
+
+  // Advice
+  advice_track_daily: "Track your symptoms daily.",
+  advice_consult_doctor: "Consult a doctor if symptoms persist.",
+  advice_doctor_immediate: "Consult a registered doctor immediately.",
+
+  // Section Headers
+  medicalReasons: "Medical Reasons",
+  advice: "Advice",
+  symptoms: "Symptoms",
+  risk: "Risk",
+  
+  // Dashboard Cards
+  todayScore: "Today's Score",
+  status: "Status",
+  trend: "Trend",
+  symptoms: "Symptoms",
+  mostSevere: "Most Severe",
+  recommendation: "Recommendation",
+  reasons: "Reasons",
+  aiSummary: "AI Summary",
+  
+  // Recommendations
+  restToday: "Rest today",
+  drinkWater: "Drink enough water",
+  doctorConsultation: "Doctor consultation recommended",
+  
+  // Reasons
+  symptomsReported: "symptoms reported",
+  scoreIncreased: "Score increased from previous log",
+
 };

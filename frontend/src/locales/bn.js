@@ -497,4 +497,185 @@ urgencySevere: "আজকেই ডাক্তার দেখান!",
 urgencyModerate: "১ সপ্তাহের মধ্যে ডাক্তার দেখান",
 urgencyMild: "১ মাসের মধ্যে ডাক্তার দেখান",
 urgencyNormal: "স্বাভাবিক — স্বাস্থ্যকর জীবনযাপন চালিয়ে যান",
+
+
+// Daily Tracker
+dailyTracker: "ডেইলি ট্র্যাকার",
+today: "আজ",
+todayLog: "আজকের লগ",
+todayScore: "আজকের স্কোর",
+status: "অবস্থা",
+symptomScore: "লক্ষণ স্কোর",
+yesterday: "গতকাল",
+difference: "পার্থক্য",
+todayAnalysis: "আজকের বিশ্লেষণ",
+aiInsight: "এআই অন্তর্দৃষ্টি",
+symptomTrend: "লক্ষণ প্রবণতা",
+last30Days: "শেষ ৩০ দিন",
+weeklySummary: "সাপ্তাহিক সারাংশ",
+averageScore: "গড় স্কোর",
+bestDay: "সেরা দিন",
+worstDay: "খারাপ দিন",
+trend: "প্রবণতা",
+streakDays: "আপনি ধারাবাহিকভাবে",
+consecutiveDays: "দিন ধরে লগ করেছেন",
+calendar: "ক্যালেন্ডার",
+good: "ভালো",
+attention: "মনোযোগ",
+warning: "সতর্কতা",
+aiWeeklySummary: "এআই সাপ্তাহিক সারাংশ",
+overallTrend: "সামগ্রিক প্রবণতা",
+mostFrequentSymptoms: "সবচেয়ে ঘন ঘন লক্ষণ",
+days: "দিন",
+needsAttention: "মনোযোগ প্রয়োজন",
+last5DaysIncreasing: "শেষ ৫ দিন বাড়ছে",
+monitorClosely: "নিবিড়ভাবে পর্যবেক্ষণ করুন",
+high: "উচ্চ",
+medium: "মাঝারি",
+personalRecord: "ব্যক্তিগত রেকর্ড",
+lowest: "সর্বনিম্ন",
+highest: "সর্বোচ্চ",
+average: "গড়",
+optional: "ঐচ্ছিক",
+writeNote: "আজকের স্বাস্থ্য সম্পর্কে লিখুন...",
+saving: "সংরক্ষণ হচ্ছে...",
+saved: "সংরক্ষিত হয়েছে ✓",
+saveLog: "আজকের লগ সংরক্ষণ করুন",
+decreased: "কমেছে",
+increased: "বেড়েছে",
+unchanged: "অপরিবর্তিত",
+historyComingSoon: "ইতিহাস শীঘ্রই আসছে...",
+history: "ইতিহাস",
+entries: "টি এন্ট্রি",
+view: "দেখুন",
+delete: "ডিলিট",
+cancel: "বাতিল",
+noLog: "লগ নেই",
+startTracking: "আজই আপনার স্বাস্থ্য ট্র্যাকিং শুরু করুন!",
+
+
+
+// bn.js
+welcomeBack: "AnemiaCheck-BD-তে আপনাকে স্বাগতম",
+lastUpdated: "শেষ আপডেট",
+currentHB: "বর্তমান এইচবি",
+riskLevel: "ঝুঁকি স্তর",
+todaySymptom: "আজকের লক্ষণ",
+currentStreak: "বর্তমান ধারাবাহিকতা",
+aiHealthStatus: "এআই স্বাস্থ্য অবস্থা",
+viewDetails: "বিস্তারিত দেখুন",
+quickActions: "দ্রুত কর্ম",
+newScreening: "নতুন স্ক্রিনিং",
+healthProgress: "স্বাস্থ্য অগ্রগতি",
+hbTrend: "এইচবি প্রবণতা",
+symptomTrend: "লক্ষণ প্রবণতা",
+viewFull: "সম্পূর্ণ দেখুন",
+recentActivity: "সাম্প্রতিক কার্যকলাপ",
+achievements: "অর্জন",
+healthLogs: "স্বাস্থ্য লগ",
+completed: "সম্পন্ন",
+consistent: "ধারাবাহিক",
+hbImproved: "এইচবি উন্নতি",
+improved: "উন্নতি",
+decreased: "হ্রাস",
+noChange: "কোনো পরিবর্তন নেই",
+dailyTip: "দৈনিক স্বাস্থ্য টিপ",
+emergencyNotice: "⚠️ অনুগ্রহ করে ডাক্তারের সাথে পরামর্শ করুন",
+emergencyMessage: "আপনার সাম্প্রতিক রিপোর্টগুলি নির্দেশ করে যে চিকিৎসা মূল্যায়ন প্রয়োজন।",
+viewReports: "রিপোর্ট দেখুন",
+days: "দিন",
+noDataAvailable: "কোনো তথ্য উপলব্ধ নেই",
+
+// bn.js
+hbTrend: "এইচবি প্রবণতা",
+symptomTrend: "লক্ষণ প্রবণতা",
+viewFull: "সম্পূর্ণ দেখুন",
+noHBData: "কোনো এইচবি ডেটা নেই। একটি স্ক্রিনিং সম্পূর্ণ করুন।",
+
+
+  // Status
+  good: "ভালো",
+  attention: "মনোযোগ প্রয়োজন",
+  warning: "সতর্কতা",
+
+  // Trend
+  strongly_improving: "দারুণ উন্নতি",
+  improving: "উন্নতি হচ্ছে",
+  stable: "স্থিতিশীল",
+  slightly_worse: "সামান্য অবনতি",
+  worsening: "অবনতি হচ্ছে",
+  critical: "সংকটজনক",
+
+  // Risk
+  low: "কম",
+  moderate: "মাঝারি",
+  high: "উচ্চ",
+
+  // Severity
+  none: "নেই",
+  mild: "হালকা",
+  moderate: "মাঝারি",
+  severe: "তীব্র",
+
+  // Score Level
+  low: "কম",
+  moderate: "মাঝারি",
+  high: "উচ্চ",
+
+  // Symptoms
+  symptom_fatigue: "ক্লান্তি",
+  symptom_dizziness: "মাথা ঘোরা",
+  symptom_breathless: "শ্বাসকষ্ট",
+  symptom_headache: "মাথাব্যথা",
+  symptom_heartbeat: "বুক ধড়ফড়",
+  symptom_swelling: "ফোলাভাব",
+  symptom_pale_eyes: "চোখ ফ্যাকাশে",
+  symptom_concentration: "মনোযোগ সমস্যা",
+
+  // Score Explanation Keys
+  count_1_fatigue_mild: "১টি লক্ষণ: ক্লান্তি (হালকা)",
+  count_2_fatigue_moderate_dizziness_mild: "২টি লক্ষণ: ক্লান্তি (মাঝারি), মাথা ঘোরা (হালকা)",
+  count_3_fatigue_moderate_breathless_severe_heartbeat_moderate: "৩টি লক্ষণ: ক্লান্তি (মাঝারি), শ্বাসকষ্ট (তীব্র), বুক ধড়ফড় (মাঝারি)",
+
+  // Symptom Reasons
+  symptom_reason_fatigue: "হিমোগ্লোবিন কম থাকায় পেশিতে অক্সিজেন সরবরাহ কমে, ফলে ক্লান্তি দেখা দেয়।",
+  symptom_reason_breathless: "অক্সিজেনের ঘাটতি পূরণ করতে শরীর শ্বাসের হার বাড়ায়।",
+  symptom_reason_heartbeat: "হৃদপিণ্ড দ্রুত কাজ করে, ফলে ধড়ফড়ানি হতে পারে。",
+
+  // Advice
+  advice_track_daily: "প্রতিদিন আপনার লক্ষণ ট্র্যাক করুন।",
+  advice_consult_doctor: "লক্ষণ অব্যাহত থাকলে ডাক্তার দেখান।",
+  advice_doctor_immediate: "অবিলম্বে ডাক্তারের পরামর্শ নিন。",
+
+  // Section Headers
+  medicalReasons: "চিকিৎসা কারণ",
+  advice: "পরামর্শ",
+  symptoms: "লক্ষণ",
+  risk: "ঝুঁকি",
+todayScore: "আজকের স্কোর",
+  status: "অবস্থা",
+  trend: "প্রবণতা",
+  symptoms: "লক্ষণ",
+  mostSevere: "সবচেয়ে তীব্র",
+  recommendation: "পরামর্শ",
+  reasons: "কারণ",
+  aiSummary: "এআই সারসংক্ষেপ",
+  
+  // Recommendations
+  restToday: "আজ বিশ্রাম নিন",
+  drinkWater: "পর্যাপ্ত পানি পান করুন",
+  doctorConsultation: "চিকিৎসকের পরামর্শ নিন",
+  
+  // Reasons
+  symptomsReported: "টি লক্ষণ জানানো হয়েছে",
+  scoreIncreased: "আগের লগের তুলনায় স্কোর বেড়েছে",
+  
+  // Trend
+  strongly_improving: "দারুণ উন্নতি",
+  improving: "উন্নতি হচ্ছে",
+  stable: "স্থিতিশীল",
+  slightly_worse: "সামান্য অবনতি",
+  worsening: "অবনতি হচ্ছে",
+  critical: "সংকটজনক",
+
 };
